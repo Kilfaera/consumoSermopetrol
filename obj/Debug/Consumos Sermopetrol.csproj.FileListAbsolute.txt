@@ -1,0 +1,13 @@
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\bin\Debug\Consumos Sermopetrol.exe.config
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\bin\Debug\Consumos Sermopetrol.exe
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\bin\Debug\Consumos Sermopetrol.pdb
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\bin\Debug\es-CO\Consumos Sermopetrol.resources.dll
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.csproj.AssemblyReference.cache
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Form1.resources
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Properties.Resources.resources
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Form1.es-CO.resources
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.csproj.GenerateResource.cache
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.csproj.CoreCompileInputs.cache
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\es-CO\Consumos Sermopetrol.resources.dll
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.exe
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.pdb
