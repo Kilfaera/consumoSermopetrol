@@ -83,6 +83,66 @@
     <Compile Include="Capa_Vista\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Capa_Vista\FormAjustesCopia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormAjustesCopia.Designer.cs">
+      <DependentUpon>FormAjustesCopia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormAjustesInterfaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormAjustesInterfaz.Designer.cs">
+      <DependentUpon>FormAjustesInterfaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormAjustesRutas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormAjustesRutas.Designer.cs">
+      <DependentUpon>FormAjustesRutas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormConsumoAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormConsumoAgregar.Designer.cs">
+      <DependentUpon>FormConsumoAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormConsumoEstadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormConsumoEstadisticas.Designer.cs">
+      <DependentUpon>FormConsumoEstadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormEmpleadosAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormEmpleadosAgregar.Designer.cs">
+      <DependentUpon>FormEmpleadosAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormEmpleadosLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormEmpleadosLista.Designer.cs">
+      <DependentUpon>FormEmpleadosLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormEmpleadosModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormEmpleadosModificar.Designer.cs">
+      <DependentUpon>FormEmpleadosModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormExportarExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormExportarExcel.Designer.cs">
+      <DependentUpon>FormExportarExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vista\FormExportarQr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_Vista\FormExportarQr.Designer.cs">
+      <DependentUpon>FormExportarQr.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Capa_Vista\Form1.es-CO.resx">
@@ -90,6 +150,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Capa_Vista\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormAjustesCopia.resx">
+      <DependentUpon>FormAjustesCopia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormAjustesInterfaz.resx">
+      <DependentUpon>FormAjustesInterfaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormAjustesRutas.resx">
+      <DependentUpon>FormAjustesRutas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormConsumoAgregar.resx">
+      <DependentUpon>FormConsumoAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormConsumoEstadisticas.resx">
+      <DependentUpon>FormConsumoEstadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormEmpleadosAgregar.resx">
+      <DependentUpon>FormEmpleadosAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormEmpleadosLista.resx">
+      <DependentUpon>FormEmpleadosLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormEmpleadosModificar.resx">
+      <DependentUpon>FormEmpleadosModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormExportarExcel.resx">
+      <DependentUpon>FormExportarExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_Vista\FormExportarQr.resx">
+      <DependentUpon>FormExportarQr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,6 +189,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,10 +206,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Capa_Negocio\" />
-    <Folder Include="Recursos\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo-ico.ico" />
+    <None Include="Recursos\sin imagen.jpg" />
+    <None Include="Recursos\logo-ico.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
