@@ -21,3 +21,6 @@ E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Con
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormEmpleadosModificar.resources
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormExportarExcel.resources
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormExportarQr.resources
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\bin\Debug\FontAwesome.Sharp.dll
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\bin\Debug\FontAwesome.Sharp.Material.dll
+E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos.E1DBC307.Up2Date

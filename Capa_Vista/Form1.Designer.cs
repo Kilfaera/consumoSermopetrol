@@ -53,9 +53,9 @@
             this.buttonAgregarConsumo = new System.Windows.Forms.Button();
             this.buttonConsumoSideMenu = new System.Windows.Forms.Button();
             this.panelLogoSideMenu = new System.Windows.Forms.Panel();
-            this.panelChildForm = new System.Windows.Forms.Panel();
-            this.pictureBoxLogoPanelForm1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxLogoSideMenu = new System.Windows.Forms.PictureBox();
+            this.panelChildForm = new System.Windows.Forms.Panel();
+            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.panelBorderStyle.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
             this.panelSubmenuAjustes.SuspendLayout();
@@ -63,14 +63,14 @@
             this.panelSubmenuEmpleados.SuspendLayout();
             this.panelSubmenuConsumo.SuspendLayout();
             this.panelLogoSideMenu.SuspendLayout();
-            this.panelChildForm.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoPanelForm1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoSideMenu)).BeginInit();
+            this.panelChildForm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelBorderStyle
             // 
-            this.panelBorderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(40)))), ((int)(((byte)(42)))));
+            this.panelBorderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.panelBorderStyle.Controls.Add(this.buttonMinimizeBorderStyle);
             this.panelBorderStyle.Controls.Add(this.buttonCloseBorderStyle);
             this.panelBorderStyle.Controls.Add(this.label1);
@@ -83,6 +83,7 @@
             this.buttonMinimizeBorderStyle.FlatAppearance.BorderSize = 0;
             this.buttonMinimizeBorderStyle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
             this.buttonMinimizeBorderStyle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
+            this.buttonMinimizeBorderStyle.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonMinimizeBorderStyle.Name = "buttonMinimizeBorderStyle";
             this.buttonMinimizeBorderStyle.UseVisualStyleBackColor = true;
             this.buttonMinimizeBorderStyle.Click += new System.EventHandler(this.buttonMinimizeBorderStyle_Click);
@@ -93,6 +94,7 @@
             this.buttonCloseBorderStyle.FlatAppearance.BorderSize = 0;
             this.buttonCloseBorderStyle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
             this.buttonCloseBorderStyle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
+            this.buttonCloseBorderStyle.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonCloseBorderStyle.Name = "buttonCloseBorderStyle";
             this.buttonCloseBorderStyle.UseVisualStyleBackColor = true;
             this.buttonCloseBorderStyle.Click += new System.EventHandler(this.buttonCloseBorderStyle_Click);
@@ -106,7 +108,7 @@
             // panelSideMenu
             // 
             resources.ApplyResources(this.panelSideMenu, "panelSideMenu");
-            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(40)))), ((int)(((byte)(42)))));
+            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.panelSideMenu.Controls.Add(this.buttonAjustesSideMenu);
             this.panelSideMenu.Controls.Add(this.panelSubmenuAjustes);
             this.panelSideMenu.Controls.Add(this.panelSubmenuExportar);
@@ -131,7 +133,7 @@
             // 
             // panelSubmenuAjustes
             // 
-            this.panelSubmenuAjustes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(60)))), ((int)(((byte)(61)))));
+            this.panelSubmenuAjustes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
             this.panelSubmenuAjustes.Controls.Add(this.buttonInterfazAjustes);
             this.panelSubmenuAjustes.Controls.Add(this.buttonCopiaAjustes);
             this.panelSubmenuAjustes.Controls.Add(this.buttonRutasAjustes);
@@ -144,7 +146,7 @@
             resources.ApplyResources(this.buttonInterfazAjustes, "buttonInterfazAjustes");
             this.buttonInterfazAjustes.FlatAppearance.BorderSize = 0;
             this.buttonInterfazAjustes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonInterfazAjustes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonInterfazAjustes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonInterfazAjustes.Name = "buttonInterfazAjustes";
             this.buttonInterfazAjustes.UseVisualStyleBackColor = false;
             this.buttonInterfazAjustes.Click += new System.EventHandler(this.buttonInterfazAjustes_Click);
@@ -155,7 +157,7 @@
             resources.ApplyResources(this.buttonCopiaAjustes, "buttonCopiaAjustes");
             this.buttonCopiaAjustes.FlatAppearance.BorderSize = 0;
             this.buttonCopiaAjustes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonCopiaAjustes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonCopiaAjustes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonCopiaAjustes.Name = "buttonCopiaAjustes";
             this.buttonCopiaAjustes.UseVisualStyleBackColor = false;
             this.buttonCopiaAjustes.Click += new System.EventHandler(this.buttonCopiaAjustes_Click);
@@ -166,14 +168,14 @@
             resources.ApplyResources(this.buttonRutasAjustes, "buttonRutasAjustes");
             this.buttonRutasAjustes.FlatAppearance.BorderSize = 0;
             this.buttonRutasAjustes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonRutasAjustes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonRutasAjustes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonRutasAjustes.Name = "buttonRutasAjustes";
             this.buttonRutasAjustes.UseVisualStyleBackColor = false;
             this.buttonRutasAjustes.Click += new System.EventHandler(this.buttonRutasAjustes_Click);
             // 
             // panelSubmenuExportar
             // 
-            this.panelSubmenuExportar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(60)))), ((int)(((byte)(61)))));
+            this.panelSubmenuExportar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
             this.panelSubmenuExportar.Controls.Add(this.buttonQrExportar);
             this.panelSubmenuExportar.Controls.Add(this.buttonExcelExportar);
             resources.ApplyResources(this.panelSubmenuExportar, "panelSubmenuExportar");
@@ -185,7 +187,7 @@
             resources.ApplyResources(this.buttonQrExportar, "buttonQrExportar");
             this.buttonQrExportar.FlatAppearance.BorderSize = 0;
             this.buttonQrExportar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonQrExportar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonQrExportar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonQrExportar.Name = "buttonQrExportar";
             this.buttonQrExportar.UseVisualStyleBackColor = false;
             this.buttonQrExportar.Click += new System.EventHandler(this.buttonQrExportar_Click);
@@ -196,7 +198,7 @@
             resources.ApplyResources(this.buttonExcelExportar, "buttonExcelExportar");
             this.buttonExcelExportar.FlatAppearance.BorderSize = 0;
             this.buttonExcelExportar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonExcelExportar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonExcelExportar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonExcelExportar.Name = "buttonExcelExportar";
             this.buttonExcelExportar.UseVisualStyleBackColor = false;
             this.buttonExcelExportar.Click += new System.EventHandler(this.buttonExcelExportar_Click);
@@ -213,7 +215,7 @@
             // 
             // panelSubmenuEmpleados
             // 
-            this.panelSubmenuEmpleados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(60)))), ((int)(((byte)(61)))));
+            this.panelSubmenuEmpleados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
             this.panelSubmenuEmpleados.Controls.Add(this.buttonModificarEmpleados);
             this.panelSubmenuEmpleados.Controls.Add(this.buttonAgregarEmpleados);
             this.panelSubmenuEmpleados.Controls.Add(this.buttonListaEmpleados);
@@ -226,7 +228,7 @@
             resources.ApplyResources(this.buttonModificarEmpleados, "buttonModificarEmpleados");
             this.buttonModificarEmpleados.FlatAppearance.BorderSize = 0;
             this.buttonModificarEmpleados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonModificarEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonModificarEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonModificarEmpleados.Name = "buttonModificarEmpleados";
             this.buttonModificarEmpleados.UseVisualStyleBackColor = false;
             this.buttonModificarEmpleados.Click += new System.EventHandler(this.buttonModificarEmpleados_Click);
@@ -237,7 +239,7 @@
             resources.ApplyResources(this.buttonAgregarEmpleados, "buttonAgregarEmpleados");
             this.buttonAgregarEmpleados.FlatAppearance.BorderSize = 0;
             this.buttonAgregarEmpleados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonAgregarEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonAgregarEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonAgregarEmpleados.Name = "buttonAgregarEmpleados";
             this.buttonAgregarEmpleados.UseVisualStyleBackColor = false;
             this.buttonAgregarEmpleados.Click += new System.EventHandler(this.buttonAgregarEmpleados_Click);
@@ -248,7 +250,7 @@
             resources.ApplyResources(this.buttonListaEmpleados, "buttonListaEmpleados");
             this.buttonListaEmpleados.FlatAppearance.BorderSize = 0;
             this.buttonListaEmpleados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonListaEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonListaEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonListaEmpleados.Name = "buttonListaEmpleados";
             this.buttonListaEmpleados.UseVisualStyleBackColor = false;
             this.buttonListaEmpleados.Click += new System.EventHandler(this.buttonListaEmpleados_Click);
@@ -265,7 +267,7 @@
             // 
             // panelSubmenuConsumo
             // 
-            this.panelSubmenuConsumo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(60)))), ((int)(((byte)(61)))));
+            this.panelSubmenuConsumo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
             this.panelSubmenuConsumo.Controls.Add(this.buttonEstadisticasConsumo);
             this.panelSubmenuConsumo.Controls.Add(this.buttonAgregarConsumo);
             resources.ApplyResources(this.panelSubmenuConsumo, "panelSubmenuConsumo");
@@ -277,7 +279,7 @@
             resources.ApplyResources(this.buttonEstadisticasConsumo, "buttonEstadisticasConsumo");
             this.buttonEstadisticasConsumo.FlatAppearance.BorderSize = 0;
             this.buttonEstadisticasConsumo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonEstadisticasConsumo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonEstadisticasConsumo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonEstadisticasConsumo.Name = "buttonEstadisticasConsumo";
             this.buttonEstadisticasConsumo.UseVisualStyleBackColor = false;
             this.buttonEstadisticasConsumo.Click += new System.EventHandler(this.buttonEstadisticasConsumo_Click);
@@ -288,7 +290,7 @@
             resources.ApplyResources(this.buttonAgregarConsumo, "buttonAgregarConsumo");
             this.buttonAgregarConsumo.FlatAppearance.BorderSize = 0;
             this.buttonAgregarConsumo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonAgregarConsumo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(190)))), ((int)(((byte)(187)))));
+            this.buttonAgregarConsumo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.buttonAgregarConsumo.Name = "buttonAgregarConsumo";
             this.buttonAgregarConsumo.UseVisualStyleBackColor = false;
             this.buttonAgregarConsumo.Click += new System.EventHandler(this.buttonAgregarConsumo_Click);
@@ -309,20 +311,6 @@
             resources.ApplyResources(this.panelLogoSideMenu, "panelLogoSideMenu");
             this.panelLogoSideMenu.Name = "panelLogoSideMenu";
             // 
-            // panelChildForm
-            // 
-            this.panelChildForm.Controls.Add(this.pictureBoxLogoPanelForm1);
-            resources.ApplyResources(this.panelChildForm, "panelChildForm");
-            this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.panelChildForm_ControlRemoved);
-            // 
-            // pictureBoxLogoPanelForm1
-            // 
-            resources.ApplyResources(this.pictureBoxLogoPanelForm1, "pictureBoxLogoPanelForm1");
-            this.pictureBoxLogoPanelForm1.Image = global::Consumos_Sermopetrol.Properties.Resources.logo_ico;
-            this.pictureBoxLogoPanelForm1.Name = "pictureBoxLogoPanelForm1";
-            this.pictureBoxLogoPanelForm1.TabStop = false;
-            // 
             // pictureBoxLogoSideMenu
             // 
             resources.ApplyResources(this.pictureBoxLogoSideMenu, "pictureBoxLogoSideMenu");
@@ -331,11 +319,30 @@
             this.pictureBoxLogoSideMenu.Name = "pictureBoxLogoSideMenu";
             this.pictureBoxLogoSideMenu.TabStop = false;
             // 
+            // panelChildForm
+            // 
+            this.panelChildForm.Controls.Add(this.iconPictureBox1);
+            resources.ApplyResources(this.panelChildForm, "panelChildForm");
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.panelChildForm_ControlRemoved);
+            // 
+            // iconPictureBox1
+            // 
+            resources.ApplyResources(this.iconPictureBox1, "iconPictureBox1");
+            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
+            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.Control;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Barcode;
+            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.Control;
+            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox1.IconSize = 500;
+            this.iconPictureBox1.Name = "iconPictureBox1";
+            this.iconPictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(60)))), ((int)(((byte)(61)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelSideMenu);
             this.Controls.Add(this.panelBorderStyle);
@@ -352,9 +359,9 @@
             this.panelSubmenuEmpleados.ResumeLayout(false);
             this.panelSubmenuConsumo.ResumeLayout(false);
             this.panelLogoSideMenu.ResumeLayout(false);
-            this.panelChildForm.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoPanelForm1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoSideMenu)).EndInit();
+            this.panelChildForm.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -387,7 +394,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonMinimizeBorderStyle;
         private System.Windows.Forms.Panel panelChildForm;
-        private System.Windows.Forms.PictureBox pictureBoxLogoPanelForm1;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
     }
 }
 
