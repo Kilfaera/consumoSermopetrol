@@ -1039,7 +1039,7 @@
     <value>NoControl</value>
   </data>
   <data name="iconPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 200</value>
+    <value>320, 200</value>
   </data>
   <data name="iconPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 466</value>
