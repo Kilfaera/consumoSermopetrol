@@ -15,7 +15,6 @@ E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Con
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormConsumoEstadisticas.resources
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormEmpleadosLista.resources
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormAjustesCopia.resources
-E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormAjustesInterfaz.resources
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormAjustesRutas.resources
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormEmpleadosAgregar.resources
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormEmpleadosModificar.resources

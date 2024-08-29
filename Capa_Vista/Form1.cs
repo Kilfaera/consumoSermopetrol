@@ -46,7 +46,7 @@ namespace Consumos_Sermopetrol
         {
             buttonAgregarConsumo.BackColor = buttonAgregarEmpleados.BackColor = buttonAjustesSideMenu.BackColor = buttonCloseBorderStyle.BackColor =
                 buttonConsumoSideMenu.BackColor = buttonCopiaAjustes.BackColor = buttonEmpleadosSideMenu.BackColor = buttonEstadisticasConsumo.BackColor =
-                buttonExcelExportar.BackColor = buttonExportarSideMenu.BackColor = buttonInterfazAjustes.BackColor = buttonListaEmpleados.BackColor =
+                buttonExcelExportar.BackColor = buttonExportarSideMenu.BackColor = buttonListaEmpleados.BackColor =
                 buttonMinimizeBorderStyle.BackColor = buttonModificarEmpleados.BackColor = buttonQrExportar.BackColor = buttonRutasAjustes.BackColor = Color.Transparent;
         }
         #endregion
@@ -160,11 +160,6 @@ namespace Consumos_Sermopetrol
         {
             openChildForm(new FormAjustesCopia());
             buttonCopiaAjustes.BackColor = Color.White;
-        }
-        private void buttonInterfazAjustes_Click(object sender, EventArgs e)
-        {
-            openChildForm(new FormAjustesInterfaz());
-            buttonInterfazAjustes.BackColor = Color.White;
         }
         #endregion
         #region ChildForm

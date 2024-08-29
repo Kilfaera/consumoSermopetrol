@@ -36,7 +36,6 @@
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.buttonAjustesSideMenu = new System.Windows.Forms.Button();
             this.panelSubmenuAjustes = new System.Windows.Forms.Panel();
-            this.buttonInterfazAjustes = new System.Windows.Forms.Button();
             this.buttonCopiaAjustes = new System.Windows.Forms.Button();
             this.buttonRutasAjustes = new System.Windows.Forms.Button();
             this.panelSubmenuExportar = new System.Windows.Forms.Panel();
@@ -134,22 +133,10 @@
             // panelSubmenuAjustes
             // 
             this.panelSubmenuAjustes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
-            this.panelSubmenuAjustes.Controls.Add(this.buttonInterfazAjustes);
             this.panelSubmenuAjustes.Controls.Add(this.buttonCopiaAjustes);
             this.panelSubmenuAjustes.Controls.Add(this.buttonRutasAjustes);
             resources.ApplyResources(this.panelSubmenuAjustes, "panelSubmenuAjustes");
             this.panelSubmenuAjustes.Name = "panelSubmenuAjustes";
-            // 
-            // buttonInterfazAjustes
-            // 
-            this.buttonInterfazAjustes.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.buttonInterfazAjustes, "buttonInterfazAjustes");
-            this.buttonInterfazAjustes.FlatAppearance.BorderSize = 0;
-            this.buttonInterfazAjustes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(62)))), ((int)(((byte)(54)))));
-            this.buttonInterfazAjustes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
-            this.buttonInterfazAjustes.Name = "buttonInterfazAjustes";
-            this.buttonInterfazAjustes.UseVisualStyleBackColor = false;
-            this.buttonInterfazAjustes.Click += new System.EventHandler(this.buttonInterfazAjustes_Click);
             // 
             // buttonCopiaAjustes
             // 
@@ -331,7 +318,7 @@
             resources.ApplyResources(this.iconPictureBox1, "iconPictureBox1");
             this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.Control;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Barcode;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.OilWell;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.Control;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 500;
@@ -386,7 +373,6 @@
         private System.Windows.Forms.Button buttonModificarEmpleados;
         private System.Windows.Forms.Button buttonAjustesSideMenu;
         private System.Windows.Forms.Panel panelSubmenuAjustes;
-        private System.Windows.Forms.Button buttonInterfazAjustes;
         private System.Windows.Forms.Button buttonCopiaAjustes;
         private System.Windows.Forms.Button buttonRutasAjustes;
         private System.Windows.Forms.PictureBox pictureBoxLogoSideMenu;

@@ -99,12 +99,6 @@
     <Compile Include="Capa_Vista\FormAjustesCopia.Designer.cs">
       <DependentUpon>FormAjustesCopia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Capa_Vista\FormAjustesInterfaz.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Capa_Vista\FormAjustesInterfaz.Designer.cs">
-      <DependentUpon>FormAjustesInterfaz.cs</DependentUpon>
-    </Compile>
     <Compile Include="Capa_Vista\FormAjustesRutas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,9 +157,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Capa_Vista\FormAjustesCopia.resx">
       <DependentUpon>FormAjustesCopia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Capa_Vista\FormAjustesInterfaz.resx">
-      <DependentUpon>FormAjustesInterfaz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa_Vista\FormAjustesRutas.resx">
       <DependentUpon>FormAjustesRutas.cs</DependentUpon>
