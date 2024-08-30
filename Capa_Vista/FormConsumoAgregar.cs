@@ -20,5 +20,18 @@ namespace Consumos_Sermopetrol.Capa_Vista
         {
             this.Close();
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButtonHideLeftSidePanel_Click(object sender, EventArgs e)
+        {
+            if (panel3.Visible)
+            {
+                panel3.Visible = false;
+            } else { panel3.Visible = true; }
+        }
     }
 }
