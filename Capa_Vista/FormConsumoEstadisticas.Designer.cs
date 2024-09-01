@@ -28,20 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonClose = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.consumo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel4 = new System.Windows.Forms.Panel();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -54,14 +45,23 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.consumo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel5 = new System.Windows.Forms.Panel();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,126 +104,6 @@
             this.panel2.Size = new System.Drawing.Size(304, 628);
             this.panel2.TabIndex = 2;
             // 
-            // iconButton1
-            // 
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowAltCircleDown;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 50;
-            this.iconButton1.Location = new System.Drawing.Point(0, 574);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(304, 54);
-            this.iconButton1.TabIndex = 14;
-            this.iconButton1.Text = "Exportar";
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.dataGridView1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 36);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(496, 628);
-            this.panel3.TabIndex = 3;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
-            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.id,
-            this.nombre,
-            this.documento,
-            this.zona,
-            this.consumo,
-            this.fecha});
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle14;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dataGridView1.Size = new System.Drawing.Size(496, 628);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // id
-            // 
-            this.id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.id.Frozen = true;
-            this.id.HeaderText = "ID";
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            this.id.Width = 54;
-            // 
-            // nombre
-            // 
-            this.nombre.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.nombre.Frozen = true;
-            this.nombre.HeaderText = "Nombre";
-            this.nombre.Name = "nombre";
-            this.nombre.ReadOnly = true;
-            this.nombre.Width = 110;
-            // 
-            // documento
-            // 
-            this.documento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.documento.Frozen = true;
-            this.documento.HeaderText = "Documento";
-            this.documento.Name = "documento";
-            this.documento.ReadOnly = true;
-            this.documento.Width = 142;
-            // 
-            // zona
-            // 
-            this.zona.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.zona.Frozen = true;
-            this.zona.HeaderText = "Zona de Trabajo";
-            this.zona.Name = "zona";
-            this.zona.ReadOnly = true;
-            this.zona.Width = 173;
-            // 
-            // consumo
-            // 
-            this.consumo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.consumo.Frozen = true;
-            this.consumo.HeaderText = "Tipo de Consumo";
-            this.consumo.Name = "consumo";
-            this.consumo.ReadOnly = true;
-            this.consumo.Width = 184;
-            // 
-            // fecha
-            // 
-            this.fecha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.fecha.Frozen = true;
-            this.fecha.HeaderText = "Fecha de Registro";
-            this.fecha.Name = "fecha";
-            this.fecha.ReadOnly = true;
-            this.fecha.Width = 188;
-            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.comboBox3);
@@ -258,7 +138,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.Control;
             this.label7.Location = new System.Drawing.Point(11, 382);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 16);
+            this.label7.Size = new System.Drawing.Size(49, 16);
             this.label7.TabIndex = 25;
             this.label7.Text = "Hasta";
             // 
@@ -277,7 +157,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
             this.label6.Location = new System.Drawing.Point(11, 317);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 16);
+            this.label6.Size = new System.Drawing.Size(54, 16);
             this.label6.TabIndex = 23;
             this.label6.Text = "Desde";
             // 
@@ -296,7 +176,7 @@
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
             this.label5.Location = new System.Drawing.Point(11, 253);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 16);
+            this.label5.Size = new System.Drawing.Size(133, 16);
             this.label5.TabIndex = 21;
             this.label5.Text = "Tipo de Consumo";
             // 
@@ -314,7 +194,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
             this.label4.Location = new System.Drawing.Point(11, 191);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 16);
+            this.label4.Size = new System.Drawing.Size(126, 16);
             this.label4.TabIndex = 19;
             this.label4.Text = "Zona de Trabajo";
             // 
@@ -332,7 +212,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(11, 129);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 16);
+            this.label3.Size = new System.Drawing.Size(63, 16);
             this.label3.TabIndex = 17;
             this.label3.Text = "Nombre";
             // 
@@ -348,10 +228,123 @@
             this.label1.Text = "Filtros";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // iconButton1
+            // 
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowAltCircleDown;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 50;
+            this.iconButton1.Location = new System.Drawing.Point(0, 574);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(304, 54);
+            this.iconButton1.TabIndex = 14;
+            this.iconButton1.Text = "Exportar";
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.dataGridView1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 36);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(496, 628);
+            this.panel3.TabIndex = 3;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id,
+            this.nombre,
+            this.documento,
+            this.zona,
+            this.consumo,
+            this.fecha});
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dataGridView1.Size = new System.Drawing.Size(496, 628);
+            this.dataGridView1.TabIndex = 1;
+            // 
+            // id
+            // 
+            this.id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.id.HeaderText = "ID";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Width = 54;
+            // 
+            // nombre
+            // 
+            this.nombre.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.nombre.HeaderText = "Nombre";
+            this.nombre.Name = "nombre";
+            this.nombre.ReadOnly = true;
+            this.nombre.Width = 110;
+            // 
+            // documento
+            // 
+            this.documento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.documento.HeaderText = "Documento";
+            this.documento.Name = "documento";
+            this.documento.ReadOnly = true;
+            this.documento.Width = 142;
+            // 
+            // zona
+            // 
+            this.zona.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.zona.HeaderText = "Zona de Trabajo";
+            this.zona.Name = "zona";
+            this.zona.ReadOnly = true;
+            this.zona.Width = 173;
+            // 
+            // consumo
+            // 
+            this.consumo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.consumo.HeaderText = "Tipo de Consumo";
+            this.consumo.Name = "consumo";
+            this.consumo.ReadOnly = true;
+            this.consumo.Width = 184;
+            // 
+            // fecha
+            // 
+            this.fecha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.fecha.HeaderText = "Fecha de Registro";
+            this.fecha.Name = "fecha";
+            this.fecha.ReadOnly = true;
+            this.fecha.Width = 188;
+            // 
             // panel5
             // 
-            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.Controls.Add(this.iconButton2);
             this.panel5.Controls.Add(this.iconButton3);
@@ -390,7 +383,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(160)))), ((int)(((byte)(187)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(800, 664);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -400,10 +393,10 @@
             this.Text = "FormConsumoEstadisticas";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -413,16 +406,8 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button buttonClose;
         private FontAwesome.Sharp.IconButton iconButton1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn documento;
-        private System.Windows.Forms.DataGridViewTextBoxColumn zona;
-        private System.Windows.Forms.DataGridViewTextBoxColumn consumo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fecha;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label7;
@@ -435,6 +420,14 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn documento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn zona;
+        private System.Windows.Forms.DataGridViewTextBoxColumn consumo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fecha;
         private System.Windows.Forms.Panel panel5;
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton3;

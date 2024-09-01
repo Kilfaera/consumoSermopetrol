@@ -308,8 +308,8 @@
             // 
             // panelChildForm
             // 
-            this.panelChildForm.Controls.Add(this.iconPictureBox1);
             resources.ApplyResources(this.panelChildForm, "panelChildForm");
+            this.panelChildForm.Controls.Add(this.iconPictureBox1);
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.panelChildForm_ControlRemoved);
             // 
@@ -334,7 +334,6 @@
             this.Controls.Add(this.panelSideMenu);
             this.Controls.Add(this.panelBorderStyle);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

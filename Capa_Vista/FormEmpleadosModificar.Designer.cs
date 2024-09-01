@@ -31,26 +31,26 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonClose = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(160)))), ((int)(((byte)(187)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.panel1.Controls.Add(this.buttonClose);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -87,9 +87,57 @@
             this.panel2.Size = new System.Drawing.Size(1030, 825);
             this.panel2.TabIndex = 2;
             // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.textBox3);
+            this.panel4.Controls.Add(this.textBox2);
+            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(768, 825);
+            this.panel4.TabIndex = 2;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(84, 615);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(585, 31);
+            this.textBox3.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(84, 572);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(585, 31);
+            this.textBox2.TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(84, 528);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(585, 31);
+            this.textBox1.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Location = new System.Drawing.Point(84, 154);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(585, 347);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(160)))), ((int)(((byte)(187)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.panel3.Controls.Add(this.iconButton3);
             this.panel3.Controls.Add(this.iconButton2);
             this.panel3.Controls.Add(this.comboBox1);
@@ -148,59 +196,11 @@
             this.iconButton1.Text = "Encender Cámara";
             this.iconButton1.UseVisualStyleBackColor = true;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.textBox3);
-            this.panel4.Controls.Add(this.textBox2);
-            this.panel4.Controls.Add(this.textBox1);
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(768, 825);
-            this.panel4.TabIndex = 2;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(84, 615);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(585, 31);
-            this.textBox3.TabIndex = 3;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(84, 572);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(585, 31);
-            this.textBox2.TabIndex = 2;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(84, 528);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(585, 31);
-            this.textBox1.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(84, 154);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(585, 347);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // FormEmpleadosModificar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(67)))), ((int)(((byte)(70)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(1030, 854);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -209,10 +209,10 @@
             this.Text = "FormEmpleadosModificar";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
