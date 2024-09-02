@@ -115,7 +115,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.Location = new System.Drawing.Point(773, 29);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(359, 889);
+            this.panel2.Size = new System.Drawing.Size(359, 759);
             this.panel2.TabIndex = 1;
             // 
             // panel6
@@ -252,7 +252,7 @@
             this.panelDiagramas.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelDiagramas.Location = new System.Drawing.Point(495, 29);
             this.panelDiagramas.Name = "panelDiagramas";
-            this.panelDiagramas.Size = new System.Drawing.Size(278, 889);
+            this.panelDiagramas.Size = new System.Drawing.Size(278, 759);
             this.panelDiagramas.TabIndex = 2;
             this.panelDiagramas.Visible = false;
             // 
@@ -313,7 +313,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel7.Location = new System.Drawing.Point(469, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(26, 889);
+            this.panel7.Size = new System.Drawing.Size(26, 759);
             this.panel7.TabIndex = 2;
             // 
             // iconButtonHideLeftSidePanel
@@ -325,7 +325,7 @@
             this.iconButtonHideLeftSidePanel.IconSize = 20;
             this.iconButtonHideLeftSidePanel.Location = new System.Drawing.Point(0, 0);
             this.iconButtonHideLeftSidePanel.Name = "iconButtonHideLeftSidePanel";
-            this.iconButtonHideLeftSidePanel.Size = new System.Drawing.Size(26, 889);
+            this.iconButtonHideLeftSidePanel.Size = new System.Drawing.Size(26, 759);
             this.iconButtonHideLeftSidePanel.TabIndex = 0;
             this.iconButtonHideLeftSidePanel.UseVisualStyleBackColor = true;
             this.iconButtonHideLeftSidePanel.Click += new System.EventHandler(this.iconButtonHideLeftSidePanel_Click);
@@ -337,7 +337,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 29);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(495, 889);
+            this.panel4.Size = new System.Drawing.Size(495, 759);
             this.panel4.TabIndex = 3;
             // 
             // dataGridView
@@ -380,7 +380,7 @@
             this.dataGridView.ReadOnly = true;
             this.dataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dataGridView.Size = new System.Drawing.Size(495, 889);
+            this.dataGridView.Size = new System.Drawing.Size(495, 759);
             this.dataGridView.TabIndex = 1;
             // 
             // id
@@ -437,7 +437,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
-            this.ClientSize = new System.Drawing.Size(1132, 918);
+            this.ClientSize = new System.Drawing.Size(1132, 788);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panelDiagramas);
             this.Controls.Add(this.panel2);
