@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\",
+  "WorkspaceRootPath": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formconsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formconsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formempleadosagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formempleadosagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formempleadoslista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formempleadoslista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formconsumoestadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formconsumoestadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formajustescopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formajustescopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|e:\\proyectos\\programaci\u00F3n\\sermopetrol\\programa\\consumosermopetrol\\capa_vista\\formempleadosmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formempleadosmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formajustesrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formajustesrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formexportarqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formexportarqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formexportarexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formexportarexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formconsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|c:\\users\\sebas\\onedrive\\documentos\\github\\consumosermopetrol\\capa_vista\\formconsumoestadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formconsumoestadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formconsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formconsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formempleadosagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formempleadosagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formempleadoslista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formempleadoslista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formajustescopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formajustescopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formempleadosmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formempleadosmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formajustesrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formajustesrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formexportarqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formexportarqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formexportarexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formexportarexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formconsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formconsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formempleadosmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formempleadosmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formempleadosmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\capa_vista\\formajustescopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_vista\\formajustescopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_vista\\formajustescopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,15 +66,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FormConsumoEstadisticas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormConsumoEstadisticas.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormConsumoEstadisticas.cs",
               "RelativeDocumentMoniker": "Capa_Vista\\FormConsumoEstadisticas.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormConsumoEstadisticas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormConsumoEstadisticas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Capa_Vista\\FormConsumoEstadisticas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T13:12:10.884Z",
@@ -82,140 +98,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormEmpleadosLista.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosLista.cs",
-              "RelativeDocumentMoniker": "Capa_Vista\\FormEmpleadosLista.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosLista.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\FormEmpleadosLista.cs [Dise\u00F1o]",
+              "DocumentIndex": 6,
+              "Title": "FormAjustesCopia.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormAjustesCopia.cs",
+              "RelativeDocumentMoniker": "Capa_Vista\\FormAjustesCopia.cs",
+              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormAjustesCopia.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T13:53:32.98Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-08-27T16:29:09.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormConsumoAgregar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormConsumoAgregar.cs",
+              "RelativeDocumentMoniker": "Capa_Vista\\FormConsumoAgregar.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormConsumoAgregar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Capa_Vista\\FormConsumoAgregar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T03:37:48.407Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FormAjustesCopia.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormAjustesCopia.cs",
-              "RelativeDocumentMoniker": "Capa_Vista\\FormAjustesCopia.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormAjustesCopia.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\FormAjustesCopia.cs [Dise\u00F1o]",
+              "Title": "FormEmpleadosAgregar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosAgregar.cs",
+              "RelativeDocumentMoniker": "Capa_Vista\\FormEmpleadosAgregar.cs",
+              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosAgregar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T16:29:09.177Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-08-27T16:29:03.138Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormConsumoAgregar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormConsumoAgregar.cs",
-              "RelativeDocumentMoniker": "Capa_Vista\\FormConsumoAgregar.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormConsumoAgregar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\FormConsumoAgregar.cs [Dise\u00F1o]",
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Capa_Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Capa_Vista\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T03:37:48.407Z",
+              "WhenOpened": "2024-08-26T22:59:18.436Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormEmpleadosAgregar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosAgregar.cs",
-              "RelativeDocumentMoniker": "Capa_Vista\\FormEmpleadosAgregar.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosAgregar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\FormEmpleadosAgregar.cs [Dise\u00F1o]",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Capa_Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\Form1.cs",
+              "RelativeToolTip": "Capa_Vista\\Form1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIA4wI8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T16:29:03.138Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-08-26T23:22:38.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FormEmpleadosModificar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosModificar.cs",
-              "RelativeDocumentMoniker": "Capa_Vista\\FormEmpleadosModificar.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosModificar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\FormEmpleadosModificar.cs [Dise\u00F1o]",
+              "Title": "FormEmpleadosLista.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosLista.cs",
+              "RelativeDocumentMoniker": "Capa_Vista\\FormEmpleadosLista.cs",
+              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosLista.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T16:29:12.602Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-08-27T13:53:32.98Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "FormEmpleadosModificar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosModificar.cs",
+              "RelativeDocumentMoniker": "Capa_Vista\\FormEmpleadosModificar.cs",
+              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosModificar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:29:12.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FormAjustesRutas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormAjustesRutas.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormAjustesRutas.cs",
               "RelativeDocumentMoniker": "Capa_Vista\\FormAjustesRutas.cs",
               "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormAjustesRutas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\FormAjustesRutas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T16:29:07.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "FormExportarQr.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormExportarQr.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormExportarQr.cs",
               "RelativeDocumentMoniker": "Capa_Vista\\FormExportarQr.cs",
               "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormExportarQr.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\FormExportarQr.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T16:29:10.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "FormExportarExcel.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormExportarExcel.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormExportarExcel.cs",
               "RelativeDocumentMoniker": "Capa_Vista\\FormExportarExcel.cs",
               "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormExportarExcel.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\FormExportarExcel.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T16:29:11.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\Form1.cs",
-              "RelativeDocumentMoniker": "Capa_Vista\\Form1.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_Vista\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T22:59:18.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\Form1.cs",
-              "RelativeDocumentMoniker": "Capa_Vista\\Form1.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\Form1.cs",
-              "RelativeToolTip": "Capa_Vista\\Form1.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAkwK4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T23:22:38.612Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "FormConsumoAgregar.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormConsumoAgregar.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormConsumoAgregar.cs",
               "RelativeDocumentMoniker": "Capa_Vista\\FormConsumoAgregar.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormConsumoAgregar.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormConsumoAgregar.cs",
               "RelativeToolTip": "Capa_Vista\\FormConsumoAgregar.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAtwCEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:46:27.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T16:46:27.525Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "FormEmpleadosModificar.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosModificar.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosModificar.cs",
               "RelativeDocumentMoniker": "Capa_Vista\\FormEmpleadosModificar.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosModificar.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormEmpleadosModificar.cs",
               "RelativeToolTip": "Capa_Vista\\FormEmpleadosModificar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,14 +234,13 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "FormAjustesCopia.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormAjustesCopia.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormAjustesCopia.cs",
               "RelativeDocumentMoniker": "Capa_Vista\\FormAjustesCopia.cs",
-              "ToolTip": "E:\\Proyectos\\Programaci\u00F3n\\Sermopetrol\\Programa\\consumoSermopetrol\\Capa_Vista\\FormAjustesCopia.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Vista\\FormAjustesCopia.cs",
               "RelativeToolTip": "Capa_Vista\\FormAjustesCopia.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAArwA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T23:37:26.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T23:37:26.786Z"
             }
           ]
         }

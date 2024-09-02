@@ -23,3 +23,28 @@ E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Con
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\bin\Debug\FontAwesome.Sharp.dll
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\bin\Debug\FontAwesome.Sharp.Material.dll
 E:\Proyectos\Programación\Sermopetrol\Programa\consumoSermopetrol\obj\Debug\Consumos.E1DBC307.Up2Date
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\bin\Debug\Consumos Sermopetrol.exe.config
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\bin\Debug\Consumos Sermopetrol.exe
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\bin\Debug\Consumos Sermopetrol.pdb
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\bin\Debug\es-CO\Consumos Sermopetrol.resources.dll
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\bin\Debug\FontAwesome.Sharp.Material.dll
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.csproj.AssemblyReference.cache
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Form1.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormAjustesCopia.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormAjustesRutas.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormConsumoAgregar.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormConsumoEstadisticas.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormEmpleadosAgregar.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormEmpleadosLista.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormEmpleadosModificar.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormExportarExcel.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Capa_Vista.FormExportarQr.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Properties.Resources.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos_Sermopetrol.Form1.es-CO.resources
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.csproj.GenerateResource.cache
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.csproj.CoreCompileInputs.cache
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\es-CO\Consumos Sermopetrol.resources.dll
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos.E1DBC307.Up2Date
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.exe
+C:\Users\sebas\OneDrive\Documentos\GitHub\consumoSermopetrol\obj\Debug\Consumos Sermopetrol.pdb

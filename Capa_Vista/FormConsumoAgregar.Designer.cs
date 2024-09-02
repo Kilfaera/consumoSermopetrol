@@ -181,6 +181,7 @@
             this.comboBoxConsumo.ForeColor = System.Drawing.SystemColors.Window;
             this.comboBoxConsumo.FormattingEnabled = true;
             this.comboBoxConsumo.Items.AddRange(new object[] {
+            "Automatico",
             "Desayuno",
             "Almuerzo",
             "Cena"});
