@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -44,21 +44,21 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.iconButtonAprobar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonCancelar = new FontAwesome.Sharp.IconButton();
+            this.comboBoxConsumo = new System.Windows.Forms.ComboBox();
+            this.pictureBoxFoto = new System.Windows.Forms.PictureBox();
+            this.textBoxCedula = new System.Windows.Forms.TextBox();
+            this.comboBoxSelectCamara = new System.Windows.Forms.ComboBox();
+            this.pictureBoxCamara = new System.Windows.Forms.PictureBox();
+            this.panelDiagramas = new System.Windows.Forms.Panel();
+            this.diagrama3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.diagrama2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.diagrama1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel7 = new System.Windows.Forms.Panel();
             this.iconButtonHideLeftSidePanel = new FontAwesome.Sharp.IconButton();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,15 +69,15 @@
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCamara)).BeginInit();
+            this.panelDiagramas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.diagrama3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagrama2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagrama1)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -121,11 +121,11 @@
             // panel6
             // 
             this.panel6.Controls.Add(this.panel5);
-            this.panel6.Controls.Add(this.comboBox1);
-            this.panel6.Controls.Add(this.pictureBox2);
-            this.panel6.Controls.Add(this.textBox2);
-            this.panel6.Controls.Add(this.comboBox2);
-            this.panel6.Controls.Add(this.pictureBox4);
+            this.panel6.Controls.Add(this.comboBoxConsumo);
+            this.panel6.Controls.Add(this.pictureBoxFoto);
+            this.panel6.Controls.Add(this.textBoxCedula);
+            this.panel6.Controls.Add(this.comboBoxSelectCamara);
+            this.panel6.Controls.Add(this.pictureBoxCamara);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
@@ -135,177 +135,177 @@
             // panel5
             // 
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel5.Controls.Add(this.iconButton2);
-            this.panel5.Controls.Add(this.iconButton1);
+            this.panel5.Controls.Add(this.iconButtonAprobar);
+            this.panel5.Controls.Add(this.iconButtonCancelar);
             this.panel5.Location = new System.Drawing.Point(11, 561);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(334, 124);
             this.panel5.TabIndex = 31;
             // 
-            // iconButton2
+            // iconButtonAprobar
             // 
-            this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.iconButton2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Check;
-            this.iconButton2.IconColor = System.Drawing.Color.White;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 100;
-            this.iconButton2.Location = new System.Drawing.Point(174, 0);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(160, 124);
-            this.iconButton2.TabIndex = 31;
-            this.iconButton2.UseVisualStyleBackColor = false;
+            this.iconButtonAprobar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.iconButtonAprobar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.iconButtonAprobar.IconChar = FontAwesome.Sharp.IconChar.Check;
+            this.iconButtonAprobar.IconColor = System.Drawing.Color.White;
+            this.iconButtonAprobar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButtonAprobar.IconSize = 100;
+            this.iconButtonAprobar.Location = new System.Drawing.Point(174, 0);
+            this.iconButtonAprobar.Name = "iconButtonAprobar";
+            this.iconButtonAprobar.Size = new System.Drawing.Size(160, 124);
+            this.iconButtonAprobar.TabIndex = 31;
+            this.iconButtonAprobar.UseVisualStyleBackColor = false;
             // 
-            // iconButton1
+            // iconButtonCancelar
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.X;
-            this.iconButton1.IconColor = System.Drawing.Color.White;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 100;
-            this.iconButton1.Location = new System.Drawing.Point(0, 0);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(160, 124);
-            this.iconButton1.TabIndex = 30;
-            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButtonCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.iconButtonCancelar.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonCancelar.IconChar = FontAwesome.Sharp.IconChar.X;
+            this.iconButtonCancelar.IconColor = System.Drawing.Color.White;
+            this.iconButtonCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButtonCancelar.IconSize = 100;
+            this.iconButtonCancelar.Location = new System.Drawing.Point(0, 0);
+            this.iconButtonCancelar.Name = "iconButtonCancelar";
+            this.iconButtonCancelar.Size = new System.Drawing.Size(160, 124);
+            this.iconButtonCancelar.TabIndex = 30;
+            this.iconButtonCancelar.UseVisualStyleBackColor = false;
             // 
-            // comboBox1
+            // comboBoxConsumo
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.comboBoxConsumo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxConsumo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
+            this.comboBoxConsumo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxConsumo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxConsumo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxConsumo.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBoxConsumo.FormattingEnabled = true;
+            this.comboBoxConsumo.Items.AddRange(new object[] {
             "Desayuno",
             "Almuerzo",
             "Cena"});
-            this.comboBox1.Location = new System.Drawing.Point(11, 301);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(334, 28);
-            this.comboBox1.TabIndex = 30;
+            this.comboBoxConsumo.Location = new System.Drawing.Point(11, 301);
+            this.comboBoxConsumo.Name = "comboBoxConsumo";
+            this.comboBoxConsumo.Size = new System.Drawing.Size(334, 28);
+            this.comboBoxConsumo.TabIndex = 30;
             // 
-            // pictureBox2
+            // pictureBoxFoto
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.pictureBoxFoto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::Consumos_Sermopetrol.Properties.Resources.sin_imagen;
-            this.pictureBox2.InitialImage = global::Consumos_Sermopetrol.Properties.Resources.sin_imagen;
-            this.pictureBox2.Location = new System.Drawing.Point(11, 334);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(334, 220);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 29;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxFoto.Image = global::Consumos_Sermopetrol.Properties.Resources.sin_imagen;
+            this.pictureBoxFoto.InitialImage = global::Consumos_Sermopetrol.Properties.Resources.sin_imagen;
+            this.pictureBoxFoto.Location = new System.Drawing.Point(11, 334);
+            this.pictureBoxFoto.Name = "pictureBoxFoto";
+            this.pictureBoxFoto.Size = new System.Drawing.Size(334, 220);
+            this.pictureBoxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxFoto.TabIndex = 29;
+            this.pictureBoxFoto.TabStop = false;
             // 
-            // textBox2
+            // textBoxCedula
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.textBoxCedula.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(11, 265);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(334, 31);
-            this.textBox2.TabIndex = 28;
-            this.textBox2.Text = "ID/Cédula";
+            this.textBoxCedula.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
+            this.textBoxCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCedula.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBoxCedula.Location = new System.Drawing.Point(11, 265);
+            this.textBoxCedula.Name = "textBoxCedula";
+            this.textBoxCedula.Size = new System.Drawing.Size(334, 31);
+            this.textBoxCedula.TabIndex = 28;
+            this.textBoxCedula.Text = "ID/Cédula";
             // 
-            // comboBox2
+            // comboBoxSelectCamara
             // 
-            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.comboBoxSelectCamara.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(11, 232);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(334, 28);
-            this.comboBox2.TabIndex = 27;
+            this.comboBoxSelectCamara.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
+            this.comboBoxSelectCamara.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxSelectCamara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxSelectCamara.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxSelectCamara.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBoxSelectCamara.FormattingEnabled = true;
+            this.comboBoxSelectCamara.Location = new System.Drawing.Point(11, 232);
+            this.comboBoxSelectCamara.Name = "comboBoxSelectCamara";
+            this.comboBoxSelectCamara.Size = new System.Drawing.Size(334, 28);
+            this.comboBoxSelectCamara.TabIndex = 27;
             // 
-            // pictureBox4
+            // pictureBoxCamara
             // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.pictureBoxCamara.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.Image = global::Consumos_Sermopetrol.Properties.Resources.logo_ico;
-            this.pictureBox4.InitialImage = global::Consumos_Sermopetrol.Properties.Resources.logo_ico;
-            this.pictureBox4.Location = new System.Drawing.Point(11, 6);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(334, 220);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 26;
-            this.pictureBox4.TabStop = false;
+            this.pictureBoxCamara.Image = global::Consumos_Sermopetrol.Properties.Resources.logo_ico;
+            this.pictureBoxCamara.InitialImage = global::Consumos_Sermopetrol.Properties.Resources.logo_ico;
+            this.pictureBoxCamara.Location = new System.Drawing.Point(11, 6);
+            this.pictureBoxCamara.Name = "pictureBoxCamara";
+            this.pictureBoxCamara.Size = new System.Drawing.Size(334, 220);
+            this.pictureBoxCamara.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCamara.TabIndex = 26;
+            this.pictureBoxCamara.TabStop = false;
             // 
-            // panel3
+            // panelDiagramas
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.chart3);
-            this.panel3.Controls.Add(this.chart2);
-            this.panel3.Controls.Add(this.chart1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(495, 29);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(278, 889);
-            this.panel3.TabIndex = 2;
-            this.panel3.Visible = false;
+            this.panelDiagramas.BackColor = System.Drawing.Color.White;
+            this.panelDiagramas.Controls.Add(this.diagrama3);
+            this.panelDiagramas.Controls.Add(this.diagrama2);
+            this.panelDiagramas.Controls.Add(this.diagrama1);
+            this.panelDiagramas.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelDiagramas.Location = new System.Drawing.Point(495, 29);
+            this.panelDiagramas.Name = "panelDiagramas";
+            this.panelDiagramas.Size = new System.Drawing.Size(278, 889);
+            this.panelDiagramas.TabIndex = 2;
+            this.panelDiagramas.Visible = false;
             // 
-            // chart1
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(8, 6);
-            this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(261, 224);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
-            // 
-            // chart2
-            // 
-            chartArea2.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart2.Legends.Add(legend2);
-            this.chart2.Location = new System.Drawing.Point(8, 240);
-            this.chart2.Name = "chart2";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart2.Series.Add(series2);
-            this.chart2.Size = new System.Drawing.Size(261, 224);
-            this.chart2.TabIndex = 1;
-            this.chart2.Text = "chart2";
-            // 
-            // chart3
+            // diagrama3
             // 
             chartArea1.Name = "ChartArea1";
-            this.chart3.ChartAreas.Add(chartArea1);
+            this.diagrama3.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chart3.Legends.Add(legend1);
-            this.chart3.Location = new System.Drawing.Point(8, 474);
-            this.chart3.Name = "chart3";
+            this.diagrama3.Legends.Add(legend1);
+            this.diagrama3.Location = new System.Drawing.Point(8, 474);
+            this.diagrama3.Name = "diagrama3";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            this.chart3.Series.Add(series1);
-            this.chart3.Size = new System.Drawing.Size(261, 224);
-            this.chart3.TabIndex = 2;
-            this.chart3.Text = "chart3";
+            this.diagrama3.Series.Add(series1);
+            this.diagrama3.Size = new System.Drawing.Size(261, 224);
+            this.diagrama3.TabIndex = 2;
+            this.diagrama3.Text = "chart3";
+            // 
+            // diagrama2
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.diagrama2.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.diagrama2.Legends.Add(legend2);
+            this.diagrama2.Location = new System.Drawing.Point(8, 240);
+            this.diagrama2.Name = "diagrama2";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.diagrama2.Series.Add(series2);
+            this.diagrama2.Size = new System.Drawing.Size(261, 224);
+            this.diagrama2.TabIndex = 1;
+            this.diagrama2.Text = "chart2";
+            // 
+            // diagrama1
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.diagrama1.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.diagrama1.Legends.Add(legend3);
+            this.diagrama1.Location = new System.Drawing.Point(8, 6);
+            this.diagrama1.Name = "diagrama1";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.diagrama1.Series.Add(series3);
+            this.diagrama1.Size = new System.Drawing.Size(261, 224);
+            this.diagrama1.TabIndex = 0;
+            this.diagrama1.Text = "chart1";
             // 
             // panel7
             // 
@@ -333,23 +333,23 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.panel7);
-            this.panel4.Controls.Add(this.dataGridView1);
+            this.panel4.Controls.Add(this.dataGridView);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 29);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(495, 889);
             this.panel4.TabIndex = 3;
             // 
-            // dataGridView1
+            // dataGridView
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dataGridView.AllowUserToAddRows = false;
+            this.dataGridView.AllowUserToDeleteRows = false;
+            this.dataGridView.AllowUserToResizeRows = false;
+            this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
+            this.dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -357,9 +357,9 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.nombre,
             this.documento,
@@ -373,15 +373,15 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dataGridView1.Size = new System.Drawing.Size(495, 889);
-            this.dataGridView1.TabIndex = 1;
+            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.ReadOnly = true;
+            this.dataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dataGridView.Size = new System.Drawing.Size(495, 889);
+            this.dataGridView.TabIndex = 1;
             // 
             // id
             // 
@@ -439,7 +439,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(1132, 918);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panelDiagramas);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -450,15 +450,15 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCamara)).EndInit();
+            this.panelDiagramas.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.diagrama3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagrama2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagrama1)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -468,23 +468,23 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button buttonClose;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton iconButtonAprobar;
+        private FontAwesome.Sharp.IconButton iconButtonCancelar;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart3;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.ComboBox comboBoxConsumo;
+        private System.Windows.Forms.PictureBox pictureBoxFoto;
+        private System.Windows.Forms.ComboBox comboBoxSelectCamara;
+        private System.Windows.Forms.PictureBox pictureBoxCamara;
+        private System.Windows.Forms.Panel panelDiagramas;
+        private System.Windows.Forms.TextBox textBoxCedula;
+        private System.Windows.Forms.DataVisualization.Charting.Chart diagrama3;
+        private System.Windows.Forms.DataVisualization.Charting.Chart diagrama2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart diagrama1;
         private System.Windows.Forms.Panel panel7;
         private FontAwesome.Sharp.IconButton iconButtonHideLeftSidePanel;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn documento;

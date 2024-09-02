@@ -28,10 +28,10 @@ namespace Consumos_Sermopetrol.Capa_Vista
 
         private void iconButtonHideLeftSidePanel_Click(object sender, EventArgs e)
         {
-            if (panel3.Visible)
+            if (panelDiagramas.Visible)
             {
-                panel3.Visible = false;
-            } else { panel3.Visible = true; }
+                panelDiagramas.Visible = false;
+            } else { panelDiagramas.Visible = true; }
         }
     }
 }
