@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|c:\\users\\sebas\\onedrive\\documentos\\github\\consumosermopetrol\\capa_control\\cl_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\cl_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_control\\cl_configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\cl_configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|c:\\users\\sebas\\onedrive\\documentos\\github\\consumosermopetrol\\capa_control\\cl_consumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\cl_consumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_control\\entidades\\configuaracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\entidades\\configuaracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|c:\\users\\sebas\\onedrive\\documentos\\github\\consumosermopetrol\\capa_control\\cl_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\cl_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|c:\\users\\sebas\\onedrive\\documentos\\github\\consumosermopetrol\\capa_control\\entidades\\consumo_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_control\\cl_consumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\cl_consumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_control\\entidades\\consumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\entidades\\consumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_control\\cl_configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\cl_configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_control\\entidades\\configuaracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|solutionrelative:capa_control\\entidades\\configuaracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F76F5071-7B78-423E-8897-40C377252799}|Consumos Sermopetrol.csproj|C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\capa_control\\cl_conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,8 +97,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 265,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 197,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -117,21 +117,38 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CL_Empleado.cs",
               "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\CL_Empleado.cs",
               "RelativeDocumentMoniker": "Capa_Control\\CL_Empleado.cs",
               "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\CL_Empleado.cs",
               "RelativeToolTip": "Capa_Control\\CL_Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T18:37:11.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CL_Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\CL_Configuracion.cs",
+              "RelativeDocumentMoniker": "Capa_Control\\CL_Configuracion.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\CL_Configuracion.cs",
+              "RelativeToolTip": "Capa_Control\\CL_Configuracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T16:42:25.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CL_Consumo.cs",
               "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\CL_Consumo.cs",
               "RelativeDocumentMoniker": "Capa_Control\\CL_Consumo.cs",
@@ -139,32 +156,7 @@
               "RelativeToolTip": "Capa_Control\\CL_Consumo.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAgwDwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T16:54:48.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CL_Configuracion.cs",
-              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\CL_Configuracion.cs",
-              "RelativeDocumentMoniker": "Capa_Control\\CL_Configuracion.cs",
-              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\CL_Configuracion.cs",
-              "RelativeToolTip": "Capa_Control\\CL_Configuracion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T16:42:25.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Configuaracion.cs",
-              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Configuaracion.cs",
-              "RelativeDocumentMoniker": "Capa_Control\\Entidades\\Configuaracion.cs",
-              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Configuaracion.cs",
-              "RelativeToolTip": "Capa_Control\\Entidades\\Configuaracion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T14:19:34.915Z"
+              "WhenOpened": "2024-09-06T16:54:48.236Z"
             },
             {
               "$type": "Document",
@@ -339,12 +331,12 @@
           ]
         },
         {
-          "DockedWidth": 135,
+          "DockedWidth": 203,
           "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Consumo.cs",
               "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Consumo.cs",
               "RelativeDocumentMoniker": "Capa_Control\\Entidades\\Consumo.cs",
@@ -356,28 +348,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Configuaracion.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Configuaracion.cs",
+              "RelativeDocumentMoniker": "Capa_Control\\Entidades\\Configuaracion.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Configuaracion.cs",
+              "RelativeToolTip": "Capa_Control\\Entidades\\Configuaracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T14:19:34.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Consumo_CS.cs",
               "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Consumo_CS.cs",
               "RelativeDocumentMoniker": "Capa_Control\\Entidades\\Consumo_CS.cs",
               "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Consumo_CS.cs",
               "RelativeToolTip": "Capa_Control\\Entidades\\Consumo_CS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T14:16:56.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Empleado.cs",
               "RelativeDocumentMoniker": "Capa_Control\\Entidades\\Empleado.cs",
               "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\consumoSermopetrol\\Capa_Control\\Entidades\\Empleado.cs",
               "RelativeToolTip": "Capa_Control\\Entidades\\Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T14:15:43.142Z"
+              "WhenOpened": "2024-09-06T14:15:43.142Z",
+              "EditorCaption": ""
             }
           ]
         }
