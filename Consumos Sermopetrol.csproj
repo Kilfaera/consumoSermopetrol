@@ -134,7 +134,6 @@
     <Compile Include="Capa_Control\CL_Conexion.cs" />
     <Compile Include="Capa_Control\CL_Configuracion.cs" />
     <Compile Include="Capa_Control\CL_Consumo.cs" />
-    <Compile Include="Capa_Control\CL_Consumo_CS.cs" />
     <Compile Include="Capa_Control\CL_Empleado.cs" />
     <Compile Include="Capa_Control\Entidades\Configuaracion.cs" />
     <Compile Include="Capa_Control\Entidades\Consumo.cs" />
