@@ -66,11 +66,12 @@ BEGIN
            e.NumeroDocumento AS DocumentoEmpleado,
            e.ZonaDeTrabajo AS ZonaTrabajoEmpleado,
            c.TipoConsumo,
-           c.FechaRegistro
+           c.FechaRegistro,
+           c.Registro
     FROM Consumo c
     JOIN Empleado e ON c.IdEmpleado = e.IdEmpleado;
 END$$
-DELIMITER ;
+DELIMITER;
 
 -- Procedimiento almacenado: ObtenerConsumoCS
 DELIMITER $$
@@ -96,28 +97,30 @@ BEGIN
 END$$
 DELIMITER ;
 
--- Procedimiento almacenado: InsertarConsumo
+-- Procedimiento almacenado: InsertarConsumo (ahora incluye 'Registro')
 DELIMITER $$
 CREATE PROCEDURE InsertarConsumo(
     IN IdEmpleado INT,
     IN TipoConsumo VARCHAR(25)
+    IN Registro VARCHAR(25)
 )
 BEGIN
-    INSERT INTO Consumo (IdEmpleado, TipoConsumo, FechaRegistro)
-    VALUES (IdEmpleado, TipoConsumo, NOW());
+    INSERT INTO Consumo (IdEmpleado, TipoConsumo, FechaRegistro, Registro)
+    VALUES (IdEmpleado, TipoConsumo, NOW(), Registro);
 END$$
 DELIMITER ;
 
--- Procedimiento almacenado: AgregarConsumoCS
+-- Procedimiento almacenado: AgregarConsumoCS (ahora incluye 'Registro')
 DELIMITER $$
 CREATE PROCEDURE AgregarConsumoCS(
     IN IdEmpleado INT,
     IN TipoConsumo VARCHAR(25),
     IN FechaRegistro DATETIME
+    IN Registro BIT
 )
 BEGIN
-    INSERT INTO Consumo (IdEmpleado, TipoConsumo, FechaRegistro)
-    VALUES (IdEmpleado, TipoConsumo, FechaRegistro);
+    INSERT INTO Consumo (IdEmpleado, TipoConsumo, FechaRegistro, Registro)
+    VALUES (IdEmpleado, TipoConsumo, FechaRegistro, Registro);
 END$$
 DELIMITER ;
 
