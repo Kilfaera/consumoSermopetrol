@@ -54,7 +54,7 @@
             this.panelLogoSideMenu = new System.Windows.Forms.Panel();
             this.pictureBoxLogoSideMenu = new System.Windows.Forms.PictureBox();
             this.panelChildForm = new System.Windows.Forms.Panel();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconPictureBoxMenu = new FontAwesome.Sharp.IconPictureBox();
             this.panelBorderStyle.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
             this.panelSubmenuAjustes.SuspendLayout();
@@ -64,7 +64,7 @@
             this.panelLogoSideMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoSideMenu)).BeginInit();
             this.panelChildForm.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBoxMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // panelBorderStyle
@@ -309,21 +309,21 @@
             // panelChildForm
             // 
             resources.ApplyResources(this.panelChildForm, "panelChildForm");
-            this.panelChildForm.Controls.Add(this.iconPictureBox1);
+            this.panelChildForm.Controls.Add(this.iconPictureBoxMenu);
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.panelChildForm_ControlRemoved);
             // 
-            // iconPictureBox1
+            // iconPictureBoxMenu
             // 
-            resources.ApplyResources(this.iconPictureBox1, "iconPictureBox1");
-            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
-            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.Control;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.OilWell;
-            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.Control;
-            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 500;
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.TabStop = false;
+            resources.ApplyResources(this.iconPictureBoxMenu, "iconPictureBoxMenu");
+            this.iconPictureBoxMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
+            this.iconPictureBoxMenu.ForeColor = System.Drawing.SystemColors.Control;
+            this.iconPictureBoxMenu.IconChar = FontAwesome.Sharp.IconChar.OilWell;
+            this.iconPictureBoxMenu.IconColor = System.Drawing.SystemColors.Control;
+            this.iconPictureBoxMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBoxMenu.IconSize = 500;
+            this.iconPictureBoxMenu.Name = "iconPictureBoxMenu";
+            this.iconPictureBoxMenu.TabStop = false;
             // 
             // Form1
             // 
@@ -334,6 +334,7 @@
             this.Controls.Add(this.panelSideMenu);
             this.Controls.Add(this.panelBorderStyle);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -347,7 +348,7 @@
             this.panelLogoSideMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoSideMenu)).EndInit();
             this.panelChildForm.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBoxMenu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -379,7 +380,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonMinimizeBorderStyle;
         private System.Windows.Forms.Panel panelChildForm;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBoxMenu;
     }
 }
 

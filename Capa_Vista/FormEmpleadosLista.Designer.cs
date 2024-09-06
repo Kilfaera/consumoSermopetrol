@@ -212,50 +212,65 @@
             // iconButtonAgregar
             // 
             this.iconButtonAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButtonAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
+            this.iconButtonAgregar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.iconButtonAgregar.FlatAppearance.BorderSize = 2;
+            this.iconButtonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonAgregar.ForeColor = System.Drawing.Color.White;
             this.iconButtonAgregar.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.iconButtonAgregar.IconColor = System.Drawing.Color.Black;
+            this.iconButtonAgregar.IconColor = System.Drawing.Color.White;
             this.iconButtonAgregar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonAgregar.IconSize = 50;
-            this.iconButtonAgregar.Location = new System.Drawing.Point(655, 22);
+            this.iconButtonAgregar.Location = new System.Drawing.Point(656, 21);
             this.iconButtonAgregar.Name = "iconButtonAgregar";
-            this.iconButtonAgregar.Size = new System.Drawing.Size(112, 54);
+            this.iconButtonAgregar.Size = new System.Drawing.Size(133, 54);
             this.iconButtonAgregar.TabIndex = 17;
             this.iconButtonAgregar.Text = "Añadir";
             this.iconButtonAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButtonAgregar.UseVisualStyleBackColor = true;
+            this.iconButtonAgregar.UseVisualStyleBackColor = false;
             // 
             // iconButtonEditar
             // 
             this.iconButtonEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButtonEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
+            this.iconButtonEditar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.iconButtonEditar.FlatAppearance.BorderSize = 2;
+            this.iconButtonEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonEditar.ForeColor = System.Drawing.Color.White;
             this.iconButtonEditar.IconChar = FontAwesome.Sharp.IconChar.UserGear;
-            this.iconButtonEditar.IconColor = System.Drawing.Color.Black;
+            this.iconButtonEditar.IconColor = System.Drawing.Color.White;
             this.iconButtonEditar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonEditar.IconSize = 50;
-            this.iconButtonEditar.Location = new System.Drawing.Point(537, 22);
+            this.iconButtonEditar.Location = new System.Drawing.Point(526, 21);
             this.iconButtonEditar.Name = "iconButtonEditar";
-            this.iconButtonEditar.Size = new System.Drawing.Size(112, 54);
+            this.iconButtonEditar.Size = new System.Drawing.Size(124, 54);
             this.iconButtonEditar.TabIndex = 16;
             this.iconButtonEditar.Text = "Editar";
             this.iconButtonEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButtonEditar.UseVisualStyleBackColor = true;
+            this.iconButtonEditar.UseVisualStyleBackColor = false;
             // 
             // iconButtonExportar
             // 
             this.iconButtonExportar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButtonExportar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonExportar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
+            this.iconButtonExportar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.iconButtonExportar.FlatAppearance.BorderSize = 2;
+            this.iconButtonExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonExportar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonExportar.ForeColor = System.Drawing.Color.White;
             this.iconButtonExportar.IconChar = FontAwesome.Sharp.IconChar.ArrowAltCircleDown;
-            this.iconButtonExportar.IconColor = System.Drawing.Color.Black;
+            this.iconButtonExportar.IconColor = System.Drawing.Color.White;
             this.iconButtonExportar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonExportar.IconSize = 50;
-            this.iconButtonExportar.Location = new System.Drawing.Point(322, 22);
+            this.iconButtonExportar.Location = new System.Drawing.Point(311, 21);
             this.iconButtonExportar.Name = "iconButtonExportar";
             this.iconButtonExportar.Size = new System.Drawing.Size(209, 54);
             this.iconButtonExportar.TabIndex = 15;
             this.iconButtonExportar.Text = "Exportar Empleados";
             this.iconButtonExportar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButtonExportar.UseVisualStyleBackColor = true;
+            this.iconButtonExportar.UseVisualStyleBackColor = false;
             // 
             // iconButtonReiniciar
             // 
@@ -272,7 +287,9 @@
             // 
             // textBoxCedula
             // 
+            this.textBoxCedula.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
             this.textBoxCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCedula.ForeColor = System.Drawing.Color.White;
             this.textBoxCedula.Location = new System.Drawing.Point(34, 34);
             this.textBoxCedula.Name = "textBoxCedula";
             this.textBoxCedula.Size = new System.Drawing.Size(220, 31);

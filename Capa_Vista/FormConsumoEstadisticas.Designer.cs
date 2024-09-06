@@ -37,14 +37,16 @@
             this.iconButtonReiniciar = new FontAwesome.Sharp.IconButton();
             this.iconButtonFiltrar = new FontAwesome.Sharp.IconButton();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.dateTimePickerHasta = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerDesde = new System.Windows.Forms.DateTimePicker();
+            this.labelHasta = new System.Windows.Forms.Label();
+            this.labelDesde = new System.Windows.Forms.Label();
             this.comboBoxConsumo = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelConsumo = new System.Windows.Forms.Label();
             this.textBoxZona = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelZona = new System.Windows.Forms.Label();
             this.textBoxNombre = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelNombre = new System.Windows.Forms.Label();
             this.labelFiltros = new System.Windows.Forms.Label();
             this.iconButtonExportar = new FontAwesome.Sharp.IconButton();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -55,8 +57,6 @@
             this.zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.consumo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -95,6 +95,7 @@
             // panel2
             // 
             this.panel2.AutoScroll = true;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(15)))), ((int)(((byte)(34)))));
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.iconButtonExportar);
@@ -118,41 +119,49 @@
             // iconButtonReiniciar
             // 
             this.iconButtonReiniciar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonReiniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
+            this.iconButtonReiniciar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.iconButtonReiniciar.FlatAppearance.BorderSize = 2;
+            this.iconButtonReiniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonReiniciar.IconChar = FontAwesome.Sharp.IconChar.RotateBackward;
-            this.iconButtonReiniciar.IconColor = System.Drawing.Color.Black;
+            this.iconButtonReiniciar.IconColor = System.Drawing.Color.White;
             this.iconButtonReiniciar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonReiniciar.IconSize = 30;
             this.iconButtonReiniciar.Location = new System.Drawing.Point(0, 75);
             this.iconButtonReiniciar.Name = "iconButtonReiniciar";
             this.iconButtonReiniciar.Size = new System.Drawing.Size(278, 60);
             this.iconButtonReiniciar.TabIndex = 7;
-            this.iconButtonReiniciar.UseVisualStyleBackColor = true;
+            this.iconButtonReiniciar.UseVisualStyleBackColor = false;
             // 
             // iconButtonFiltrar
             // 
             this.iconButtonFiltrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonFiltrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
+            this.iconButtonFiltrar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.iconButtonFiltrar.FlatAppearance.BorderSize = 2;
+            this.iconButtonFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonFiltrar.IconChar = FontAwesome.Sharp.IconChar.OilWell;
-            this.iconButtonFiltrar.IconColor = System.Drawing.Color.Black;
+            this.iconButtonFiltrar.IconColor = System.Drawing.Color.White;
             this.iconButtonFiltrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonFiltrar.IconSize = 30;
             this.iconButtonFiltrar.Location = new System.Drawing.Point(0, 3);
             this.iconButtonFiltrar.Name = "iconButtonFiltrar";
             this.iconButtonFiltrar.Size = new System.Drawing.Size(278, 60);
             this.iconButtonFiltrar.TabIndex = 8;
-            this.iconButtonFiltrar.UseVisualStyleBackColor = true;
+            this.iconButtonFiltrar.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.dateTimePicker2);
-            this.panel4.Controls.Add(this.dateTimePicker1);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.dateTimePickerHasta);
+            this.panel4.Controls.Add(this.dateTimePickerDesde);
+            this.panel4.Controls.Add(this.labelHasta);
+            this.panel4.Controls.Add(this.labelDesde);
             this.panel4.Controls.Add(this.comboBoxConsumo);
-            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.labelConsumo);
             this.panel4.Controls.Add(this.textBoxZona);
-            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.labelZona);
             this.panel4.Controls.Add(this.textBoxNombre);
-            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.labelNombre);
             this.panel4.Controls.Add(this.labelFiltros);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -160,82 +169,105 @@
             this.panel4.Size = new System.Drawing.Size(304, 424);
             this.panel4.TabIndex = 15;
             // 
-            // label7
+            // dateTimePickerHasta
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(16, 368);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 16);
-            this.label7.TabIndex = 25;
-            this.label7.Text = "Hasta";
+            this.dateTimePickerHasta.CalendarTitleForeColor = System.Drawing.Color.White;
+            this.dateTimePickerHasta.Location = new System.Drawing.Point(14, 387);
+            this.dateTimePickerHasta.Name = "dateTimePickerHasta";
+            this.dateTimePickerHasta.Size = new System.Drawing.Size(278, 20);
+            this.dateTimePickerHasta.TabIndex = 28;
             // 
-            // label6
+            // dateTimePickerDesde
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(11, 310);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 16);
-            this.label6.TabIndex = 23;
-            this.label6.Text = "Desde";
+            this.dateTimePickerDesde.CalendarTitleForeColor = System.Drawing.Color.White;
+            this.dateTimePickerDesde.Location = new System.Drawing.Point(14, 329);
+            this.dateTimePickerDesde.Name = "dateTimePickerDesde";
+            this.dateTimePickerDesde.Size = new System.Drawing.Size(278, 20);
+            this.dateTimePickerDesde.TabIndex = 27;
+            // 
+            // labelHasta
+            // 
+            this.labelHasta.AutoSize = true;
+            this.labelHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHasta.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelHasta.Location = new System.Drawing.Point(16, 368);
+            this.labelHasta.Name = "labelHasta";
+            this.labelHasta.Size = new System.Drawing.Size(48, 16);
+            this.labelHasta.TabIndex = 25;
+            this.labelHasta.Text = "Hasta";
+            // 
+            // labelDesde
+            // 
+            this.labelDesde.AutoSize = true;
+            this.labelDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDesde.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelDesde.Location = new System.Drawing.Point(11, 310);
+            this.labelDesde.Name = "labelDesde";
+            this.labelDesde.Size = new System.Drawing.Size(53, 16);
+            this.labelDesde.TabIndex = 23;
+            this.labelDesde.Text = "Desde";
             // 
             // comboBoxConsumo
             // 
+            this.comboBoxConsumo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
+            this.comboBoxConsumo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxConsumo.ForeColor = System.Drawing.Color.White;
             this.comboBoxConsumo.FormattingEnabled = true;
             this.comboBoxConsumo.Location = new System.Drawing.Point(14, 273);
             this.comboBoxConsumo.Name = "comboBoxConsumo";
             this.comboBoxConsumo.Size = new System.Drawing.Size(278, 21);
             this.comboBoxConsumo.TabIndex = 22;
             // 
-            // label5
+            // labelConsumo
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(11, 253);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 16);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "Tipo de Consumo";
+            this.labelConsumo.AutoSize = true;
+            this.labelConsumo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelConsumo.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelConsumo.Location = new System.Drawing.Point(11, 253);
+            this.labelConsumo.Name = "labelConsumo";
+            this.labelConsumo.Size = new System.Drawing.Size(129, 16);
+            this.labelConsumo.TabIndex = 21;
+            this.labelConsumo.Text = "Tipo de Consumo";
             // 
             // textBoxZona
             // 
+            this.textBoxZona.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
+            this.textBoxZona.ForeColor = System.Drawing.Color.White;
             this.textBoxZona.Location = new System.Drawing.Point(14, 210);
             this.textBoxZona.Name = "textBoxZona";
             this.textBoxZona.Size = new System.Drawing.Size(278, 20);
             this.textBoxZona.TabIndex = 20;
             // 
-            // label4
+            // labelZona
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(11, 191);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 16);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "Zona de Trabajo";
+            this.labelZona.AutoSize = true;
+            this.labelZona.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelZona.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelZona.Location = new System.Drawing.Point(11, 191);
+            this.labelZona.Name = "labelZona";
+            this.labelZona.Size = new System.Drawing.Size(123, 16);
+            this.labelZona.TabIndex = 19;
+            this.labelZona.Text = "Zona de Trabajo";
             // 
             // textBoxNombre
             // 
+            this.textBoxNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
+            this.textBoxNombre.ForeColor = System.Drawing.Color.White;
             this.textBoxNombre.Location = new System.Drawing.Point(14, 148);
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(278, 20);
             this.textBoxNombre.TabIndex = 18;
             // 
-            // label3
+            // labelNombre
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(11, 129);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 16);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Nombre";
+            this.labelNombre.AutoSize = true;
+            this.labelNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNombre.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelNombre.Location = new System.Drawing.Point(11, 129);
+            this.labelNombre.Name = "labelNombre";
+            this.labelNombre.Size = new System.Drawing.Size(62, 16);
+            this.labelNombre.TabIndex = 17;
+            this.labelNombre.Text = "Nombre";
             // 
             // labelFiltros
             // 
@@ -251,10 +283,15 @@
             // 
             // iconButtonExportar
             // 
+            this.iconButtonExportar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(55)))));
             this.iconButtonExportar.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.iconButtonExportar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.iconButtonExportar.FlatAppearance.BorderSize = 2;
+            this.iconButtonExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonExportar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonExportar.ForeColor = System.Drawing.Color.White;
             this.iconButtonExportar.IconChar = FontAwesome.Sharp.IconChar.ArrowAltCircleDown;
-            this.iconButtonExportar.IconColor = System.Drawing.Color.Black;
+            this.iconButtonExportar.IconColor = System.Drawing.Color.White;
             this.iconButtonExportar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonExportar.IconSize = 50;
             this.iconButtonExportar.Location = new System.Drawing.Point(0, 574);
@@ -263,7 +300,7 @@
             this.iconButtonExportar.TabIndex = 14;
             this.iconButtonExportar.Text = "Exportar";
             this.iconButtonExportar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButtonExportar.UseVisualStyleBackColor = true;
+            this.iconButtonExportar.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -282,6 +319,7 @@
             this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.dataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.dataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
+            this.dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -363,20 +401,6 @@
             this.fecha.ReadOnly = true;
             this.fecha.Width = 188;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(14, 329);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(278, 20);
-            this.dateTimePicker1.TabIndex = 27;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(14, 387);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(278, 20);
-            this.dateTimePicker2.TabIndex = 28;
-            // 
             // FormConsumoEstadisticas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -407,14 +431,14 @@
         private System.Windows.Forms.Button buttonClose;
         private FontAwesome.Sharp.IconButton iconButtonExportar;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelHasta;
+        private System.Windows.Forms.Label labelDesde;
         private System.Windows.Forms.ComboBox comboBoxConsumo;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelConsumo;
         private System.Windows.Forms.TextBox textBoxZona;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelZona;
         private System.Windows.Forms.TextBox textBoxNombre;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelNombre;
         private System.Windows.Forms.Label labelFiltros;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dataGridView;
@@ -427,7 +451,7 @@
         private System.Windows.Forms.Panel panel5;
         private FontAwesome.Sharp.IconButton iconButtonReiniciar;
         private FontAwesome.Sharp.IconButton iconButtonFiltrar;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePickerHasta;
+        private System.Windows.Forms.DateTimePicker dateTimePickerDesde;
     }
 }
