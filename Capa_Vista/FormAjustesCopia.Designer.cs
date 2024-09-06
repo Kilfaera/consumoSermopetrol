@@ -31,8 +31,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonClose = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButtonImportar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonExportar = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -68,41 +68,51 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(93)))), ((int)(((byte)(118)))));
-            this.panel4.Controls.Add(this.iconButton2);
-            this.panel4.Controls.Add(this.iconButton1);
+            this.panel4.Controls.Add(this.iconButtonImportar);
+            this.panel4.Controls.Add(this.iconButtonExportar);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 29);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1030, 825);
             this.panel4.TabIndex = 4;
             // 
-            // iconButton2
+            // iconButtonImportar
             // 
-            this.iconButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton2.IconColor = System.Drawing.Color.Black;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.Location = new System.Drawing.Point(534, 323);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(282, 173);
-            this.iconButton2.TabIndex = 1;
-            this.iconButton2.Text = "Importar";
-            this.iconButton2.UseVisualStyleBackColor = true;
+            this.iconButtonImportar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonImportar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(54)))), ((int)(((byte)(76)))));
+            this.iconButtonImportar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.iconButtonImportar.FlatAppearance.BorderSize = 2;
+            this.iconButtonImportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonImportar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonImportar.ForeColor = System.Drawing.SystemColors.Control;
+            this.iconButtonImportar.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonImportar.IconColor = System.Drawing.Color.Black;
+            this.iconButtonImportar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButtonImportar.Location = new System.Drawing.Point(534, 323);
+            this.iconButtonImportar.Name = "iconButtonImportar";
+            this.iconButtonImportar.Size = new System.Drawing.Size(282, 173);
+            this.iconButtonImportar.TabIndex = 1;
+            this.iconButtonImportar.Text = "Importar";
+            this.iconButtonImportar.UseVisualStyleBackColor = false;
             // 
-            // iconButton1
+            // iconButtonExportar
             // 
-            this.iconButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.Location = new System.Drawing.Point(221, 323);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(282, 173);
-            this.iconButton1.TabIndex = 0;
-            this.iconButton1.Text = "Exportar";
-            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButtonExportar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonExportar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(54)))), ((int)(((byte)(76)))));
+            this.iconButtonExportar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.iconButtonExportar.FlatAppearance.BorderSize = 2;
+            this.iconButtonExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonExportar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonExportar.ForeColor = System.Drawing.SystemColors.Control;
+            this.iconButtonExportar.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonExportar.IconColor = System.Drawing.Color.Black;
+            this.iconButtonExportar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButtonExportar.Location = new System.Drawing.Point(221, 323);
+            this.iconButtonExportar.Name = "iconButtonExportar";
+            this.iconButtonExportar.Size = new System.Drawing.Size(282, 173);
+            this.iconButtonExportar.TabIndex = 0;
+            this.iconButtonExportar.Text = "Exportar";
+            this.iconButtonExportar.UseVisualStyleBackColor = false;
             // 
             // FormAjustesCopia
             // 
@@ -126,7 +136,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button buttonClose;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton iconButtonImportar;
+        private FontAwesome.Sharp.IconButton iconButtonExportar;
     }
 }
